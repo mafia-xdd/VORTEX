@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6713040337:AAH8j1GMGWYWpVKXHvOdXgpfTWJcX95luQI";  //bot token
+$botToken = "6985497649:AAGgIXg1DpLeI7uLIBSIs4tkQueWWkJ9UxM";  //bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = json_decode(file_get_contents('php://input'), true);
@@ -20,7 +20,7 @@ $message_id = $update["message"]["message_id"];
 
 ////=================[ GLOBAL VARIABLES ]=================////
 $owner = "@mafia_xdd";
-$channel = "@Nxt_Bots";
+$channel = "@mafia_xdd";
 $chat = "@mafia_xdd";
 
 
